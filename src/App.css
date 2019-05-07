@@ -1,0 +1,35 @@
+
+.card__container {
+  width: 300px;
+  padding: 20px;
+  background: salmon;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.like {
+  display: flex;
+  align-items: center;
+}
+.fa-heart {
+  margin-left: 5px;
+  color: red;
+}
+.gato_min {
+  border-radius: 50%;
+  width: 50px;
+}
+.header {
+  display: flex;
+  max-height: 50px;
+  margin-bottom: 10px;
+}
+.name {
+  margin-left: 10px;
+}
+.name > h3,p {
+  margin: 0;
+}
+
